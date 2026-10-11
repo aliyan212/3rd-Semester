@@ -51,7 +51,7 @@ Click any folder to view its notes, textbooks, and resources:
 
 ---
 
-## 🔮 Using with Obsidian
+## Using with Obsidian
 
 All notes are written in Markdown. If you use [Obsidian](https://obsidian.md/):
 1. Download or clone this repo to your device.
@@ -60,7 +60,7 @@ All notes are written in Markdown. If you use [Obsidian](https://obsidian.md/):
 
 ---
 
-## 💻 For Git Users
+## For Git Users
 
 ```bash
 # Clone
@@ -78,8 +78,4 @@ Have past papers, extra notes, or code solutions to share?
 - Click **`Add file`** > **`Upload files`** in any folder to submit a Pull Request.
 - Or drop them directly to the maintainer to get them added for the class!
 
-<div align="center">
 
-⭐ **Star this repository** so you can easily find it during midterms and finals!
-
-</div>
