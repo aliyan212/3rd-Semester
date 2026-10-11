@@ -11,16 +11,16 @@
   <b>Centralized repository for 3rd semester textbooks, lecture notes, lab codes, and reference materials.</b>
 </p>
 
-[⚡ Quick Download](#-how-to-download-no-git-needed) •
-[📚 Subjects](#-subjects) •
-[🔮 Using with Obsidian](#-using-with-obsidian) •
-[🤝 Contributing](#-contributing)
+[Quick Download](#-how-to-download-no-git-needed) •
+[Subjects](#-subjects) •
+[Using with Obsidian](#-using-with-obsidian) •
+[Contributing](#-contributing)
 
 ---
 
 </div>
 
-## ⚡ How to Download (No Git Needed!)
+## How to Download (No Git Needed!)
 
 If you just need books, slides, or notes for a quiz or exam:
 
@@ -37,17 +37,17 @@ If you just need books, slides, or notes for a quiz or exam:
 
 ---
 
-## 📚 Subjects
+## Subjects
 
 Click any folder to view its notes, textbooks, and resources:
 
-| Subject | Folder | Contents |
-| :--- | :--- | :--- |
-| **🖥️ COAL** | [📂 `COAL/`](COAL/) | Textbook, course outline, lecture notes, CPU diagrams & assembly guides |
-| **🌲 Data Structures** | [📂 `Data Structures/`](Data%20Structures/) | Sedgewick textbook, topic summaries, Java code & lab tasks |
-| **📐 Calculus & Analytical Geometry** | [📂 `Calculus & Analytical Geometry/`](Calculus%20&%20Analytical%20Geometry/) | Thomas' Calculus textbook, full solutions manual & chapter notes |
-| **🛡️ Information Security** | [📂 `Information Security/`](Information%20Security/) | Lecture notes, assignments & lab activities |
-| **⚙️ Software Engineering** | [📂 `Software Engineering/`](Software%20Engineering/) | Course concepts, SDLC guides & reference materials |
+| Subject                            | Folder                                                                        | Contents                                                                |
+| :--------------------------------- | :---------------------------------------------------------------------------- | :---------------------------------------------------------------------- |
+| **COAL**                           | [📂 `COAL/`](COAL/)                                                           | Textbook, course outline, lecture notes, CPU diagrams & assembly guides |
+| **Data Structures**                | [📂 `Data Structures/`](Data%20Structures/)                                   | Sedgewick textbook, topic summaries, Java code & lab tasks              |
+| **Calculus & Analytical Geometry** | [📂 `Calculus & Analytical Geometry/`](Calculus%20&%20Analytical%20Geometry/) | Thomas' Calculus textbook, full solutions manual & chapter notes        |
+| **Information Security**           | [📂 `Information Security/`](Information%20Security/)                         | Lecture notes, assignments & lab activities                             |
+| **Software Engineering**           | [📂 `Software Engineering/`](Software%20Engineering/)                         | Course concepts, SDLC guides & reference materials                      |
 
 ---
 
@@ -72,7 +72,7 @@ cd 3rd-Semester && git pull
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Have past papers, extra notes, or code solutions to share?
 - Click **`Add file`** > **`Upload files`** in any folder to submit a Pull Request.
