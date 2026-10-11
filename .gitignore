@@ -21,3 +21,8 @@
 Class List.xlsx
 .DS_Store
 .gitignore.txt
+
+# Sub-Folder Specific
+**/.vscode/
+**/.DS_Store
+Software Engineering/Assignment/
