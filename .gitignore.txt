@@ -1,0 +1,20 @@
+# Obsidian cache and temporary files (keep plugins/settings tracked if desired, or ignore completely)
+.obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/indexed-*.json
+
+# Trash and Sync folders
+.trash/
+.stfolder/
+
+# Specific semester subfolders
+1st Semester/
+2nd Semester/
+
+# Specific file
+Class List.xlsx
+
+# Exclude .gitignore itself from the remote repo
+.gitignore
