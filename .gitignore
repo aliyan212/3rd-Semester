@@ -11,6 +11,7 @@
 .trash/**
 
 # Obsidian workspace cache & session state
+.obsidian/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache/
@@ -19,3 +20,4 @@
 # Specific files
 Class List.xlsx
 .DS_Store
+.gitignore.txt
