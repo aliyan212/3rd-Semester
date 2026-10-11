@@ -7,6 +7,7 @@
 # Syncthing & trash directories
 .stfolder/
 .stfolder/**
+.stignore
 .trash/
 .trash/**
 
