@@ -1,5 +1,0 @@
-# This directory is a Syncthing folder marker.
-# Do not delete.
-
-folderID: qakep-xpzcn
-created: 2026-07-14T06:43:05-07:00

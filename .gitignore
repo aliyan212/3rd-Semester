@@ -1,0 +1,21 @@
+# Excluded semester directories
+1st Semester/
+1st Semester/**
+2nd Semester/
+2nd Semester/**
+
+# Syncthing & trash directories
+.stfolder/
+.stfolder/**
+.trash/
+.trash/**
+
+# Obsidian workspace cache & session state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/indexed-*.json
+
+# Specific files
+Class List.xlsx
+.DS_Store
