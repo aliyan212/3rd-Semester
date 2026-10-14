@@ -19,7 +19,7 @@ created: 2026-10-12
 
 
 > [!abstract] Overview
-> This note covers two families of algorithms. **[[Searching Algorithms]]** find a value or index inside a data structure, using either [[Linear Search]] or [[Binary Search]]. **[[Sorting Algorithms]]** arrange data in a chosen order, and this note works through [[Bubble Sort]] in detail. Complexity is described using [[Big O Notation]].
+> This note covers two families of algorithms. **[[Searching Algorithms]]** find a value or index inside a data structure, using either [[Linear Search]] or [[Binary Search]]. Complexity is described using [[Big O Notation]].
 
 ---
 
@@ -144,82 +144,13 @@ The target is found in 3 iterations instead of the 8 comparisons a linear search
 
 ---
 
-## Sorting Algorithms
-
-Sorting means arranging data in a specified order, such as ascending or descending, according to given criteria.
-
-**Four main types:**
-
-1. **[[Bubble Sort]]**
-2. **[[Selection Sort]]**
-3. **[[Merge Sort]]**
-4. **[[Insertion Sort]]**
-
----
-
-### Bubble Sort
-
-Bubble Sort is one of the simplest sorting methods. It repeatedly compares each element with its **immediate next element** and swaps them if they are in the wrong order. Larger values gradually "bubble up" to the end of the array.
-
-#### Dry Run
-
-Sorting the array `[4, 19, 1, 3]`:
-
-| Pass | Comparison | Action | Array After Step |
-| --- | --- | --- | --- |
-| 1 | `4` and `19` | Already in order | `[4, 19, 1, 3]` |
-| 1 | `19` and `1` | `19 > 1`, swap | `[4, 1, 19, 3]` |
-| 1 | `19` and `3` | `19 > 3`, swap | `[4, 1, 3, 19]` |
-| 2 | `4` and `1` | `4 > 1`, swap | `[1, 4, 3, 19]` |
-| 2 | `4` and `3` | `4 > 3`, swap | `[1, 3, 4, 19]` |
-| 3 | `1` and `3` | Already in order | `[1, 3, 4, 19]` |
-
-After pass 1, `19` is locked at the end. After pass 2, `4` is locked next to it. The final result is **`[1, 3, 4, 19]`**.
-
-| Case | Time Complexity | Explanation |
-| --- | --- | --- |
-| **Worst case** | $O(n^2)$ | Nested loops compare nearly every pair, for example on a reversed array |
-| **Best case** | $O(n)$ | Already-sorted input, with an early-exit flag stopping after one pass |
-| **Space** | $O(1)$ | Swaps happen in place using a single `temp` variable |
-
-```java
-public void bubbleSort(int[] array) {
-    // Outer loop tracks how many elements have bubbled to the end
-    for (int i = 0; i < array.length - 1; i++) {
-        boolean swapped = false; // Tracks whether this pass changed anything
-
-        // Inner loop compares adjacent elements in the unsorted part
-        for (int j = 0; j < array.length - i - 1; j++) {
-
-            // If current element is greater than the NEXT element, swap them
-            if (array[j] > array[j + 1]) {
-                int temp = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = temp;
-                swapped = true;
-            }
-        }
-
-        // No swaps means the array is already sorted, so stop early
-        if (!swapped) {
-            break;
-        }
-    }
-}
-```
-
-> [!quote] Why the Flag Matters
-> Without the `swapped` flag, the loops always run to completion, so even a sorted array costs $O(n^2)$. The flag lets the algorithm detect a pass with zero swaps and exit, which is what produces the $O(n)$ best case.
-
----
-
 ## Comparison Summary
 
-| Algorithm | Best Case | Worst Case | Space | Needs Sorted Input |
-| --- | --- | --- | --- | --- |
-| **[[Linear Search]]** | $O(1)$ | $O(n)$ | $O(1)$ | No |
-| **[[Binary Search]]** | $O(1)$ | $O(\log n)$ | $O(1)$ | Yes |
-| **[[Bubble Sort]]** | $O(n)$ with flag | $O(n^2)$ | $O(1)$ | No |
+| Algorithm             | Best Case        | Worst Case  | Space  | Needs Sorted Input |
+| --------------------- | ---------------- | ----------- | ------ | ------------------ |
+| **[[Linear Search]]** | $O(1)$           | $O(n)$      | $O(1)$ | No                 |
+| **[[Binary Search]]** | $O(1)$           | $O(\log n)$ | $O(1)$ | Yes                |
+| **[[Bubble Sort]]**   | $O(n)$ with flag | $O(n^2)$    | $O(1)$ | No                 |
 
 ---
 
