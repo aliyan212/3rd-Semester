@@ -251,7 +251,7 @@ mov al, [arrayB+1]  ; AL = 20h (alternative notation)
 | `arrayB+2` | `+2` | `30h` |
 | `arrayB+3` | `+3` | `40h` |
 
-> [!question] Slide 12: Why doesn't `arrayB+1` produce `11h`?
+> [!question] Why doesn't `arrayB+1` produce `11h`?
 > The `+1` is added to the **memory address** of `arrayB` at assembly time, not to the value `10h` stored inside it. Stepping 1 byte forward from the start lands on the second element, which holds `20h`.
 
 ### Word and Doubleword Arrays (stepping by byte size)
@@ -274,7 +274,7 @@ mov ax, [arrayW+4]   ; AX = 3000h (3rd element)
 mov eax, [arrayD+4]  ; EAX = 00000002h (2nd element)
 ~~~
 
-> [!question] Slide 13: Will these statements assemble and run?
+> [!question] Will these statements assemble and run?
 > ~~~assembly
 > mov ax, [arrayW-2]   ; ??
 > mov eax, [arrayD+16] ; ??
@@ -290,7 +290,7 @@ mov eax, [arrayD+4]  ; EAX = 00000002h (2nd element)
 
 ## 8. Solved Activities
 
-### Activity 1: Rearranging a Doubleword Array (Slide 14)
+### Activity 1: Rearranging a Doubleword Array 
 
 **Task:** Rearrange `arrayD DWORD 1, 2, 3` so the array holds `3, 1, 2`.
 
@@ -320,7 +320,7 @@ mov  arrayD, eax        ; array = 3, 1, 2
 
 ---
 
-### Activity 2: "Evaluate This..." Adding Three Bytes (Slides 15 and 16)
+### Activity 2: "Evaluate This..." Adding Three Bytes 
 
 **Task:** Sum the three bytes below.
 
@@ -336,7 +336,7 @@ $$80h + 66h + A5h = 128 + 102 + 165 = 395 = 18Bh$$
 > [!warning] Why This Is a Trap
 > `18Bh` is larger than `FFh` (255), so the result needs **more than 8 bits**.
 
-#### Part 1: First Snippet (Slide 15)
+#### Part 1: First Snippet 
 
 ~~~assembly
 mov al, myBytes
@@ -366,7 +366,7 @@ The carry bit is lost, so only `8Bh` remains in `AL`.
 > [!warning] Correction to the Source
 > The source claimed `OF = 1` at step 2. As signed values, $-128 + 102 = -26$, which is inside the range of -128 to 127, so **OF = 0**. Step 3 is also OF = 0, since $-26 + (-91) = -117$ is in range. Only CF changes.
 
-#### Part 2: Second Snippet (Slide 15)
+#### Part 2: Second Snippet
 
 ~~~assembly
 mov ax, myBytes
@@ -376,7 +376,7 @@ add ax, [myBytes+2]
 
 This **does not assemble**. `AX` is 16-bit but `myBytes` is an 8-bit `BYTE`, so every line is a size mismatch.
 
-#### Part 3: The Proposed Fix (Slide 16)
+#### Part 3: The Proposed Fix
 
 ~~~assembly
 movzx ax, myBytes
