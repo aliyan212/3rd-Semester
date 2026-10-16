@@ -110,7 +110,7 @@ mov eax, count   ; ERROR: count is 8-bit, EAX is 32-bit
 
 ---
 
-### Solved Activity: "Your Turn..." (Slide 8)
+### Solved Activity: "Your Turn..."
 
 **Task:** Explain why each `MOV` statement is invalid.
 
