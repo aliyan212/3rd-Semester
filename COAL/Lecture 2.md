@@ -4,6 +4,7 @@ aliases:
   - Cache Memory
   - CPU Registers
   - Memory Interfacing
+  - Chapter 2
 tags:
   - digital-logic-design
   - computer-architecture
@@ -11,6 +12,7 @@ tags:
   - cache
   - registers
   - pipelining
+  - chapter-2
 status: active
 created: 2026-09-23
 ---

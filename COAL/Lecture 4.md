@@ -1,6 +1,18 @@
 ---
-aliases: [MASM Syntax, Assembly Constants, Data Types, Program Vocabulary, Hexadecimal Arithmetic]
-tags: [assembly-language, masm, ia-32, data-types, syntax]
+aliases:
+  - MASM Syntax
+  - Assembly Constants
+  - Data Types
+  - Program Vocabulary
+  - Hexadecimal Arithmetic
+  - Chapter 3
+tags:
+  - assembly-language
+  - masm
+  - ia-32
+  - data-types
+  - syntax
+  - chapter-3
 status: active
 created: 2026-09-28
 ---

@@ -1,6 +1,19 @@
 ---
-aliases: [Assembly Syntax, Program Structure, Labels, Mnemonics, Operands, Irvine32]
-tags: [assembly-language, masm, ia-32, syntax, irvine32]
+aliases:
+  - Assembly Syntax
+  - Program Structure
+  - Labels
+  - Mnemonics
+  - Operands
+  - Irvine32
+  - Chapter 3
+tags:
+  - assembly-language
+  - masm
+  - ia-32
+  - syntax
+  - irvine32
+  - chapter-3
 status: active
 created: 2026-09-28
 ---

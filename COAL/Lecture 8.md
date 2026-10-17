@@ -1,6 +1,21 @@
 ---
-aliases: [Operand Types, MOV Instruction, MOVZX, MOVSX, XCHG, Direct-Offset Operands, Effective Address]
-tags: [assembly-language, masm, ia-32, mov, operands, exam-critical]
+aliases:
+  - Operand Types
+  - MOV Instruction
+  - MOVZX
+  - MOVSX
+  - XCHG
+  - Direct-Offset Operands
+  - Effective Address
+  - Chapter 4
+tags:
+  - assembly-language
+  - masm
+  - ia-32
+  - mov
+  - operands
+  - exam-critical
+  - chapter-4
 status: active
 created: 2026-10-14
 ---

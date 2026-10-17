@@ -1,6 +1,21 @@
 ---
-aliases: [AddSub2, Symbolic Constants, EQU, TEXTEQU, data? Directive, Real-Address Mode Programming, Location Counter]
-tags: [assembly-language, masm, ia-32, symbolic-constants, real-address-mode, irvine32]
+aliases:
+  - AddSub2
+  - Symbolic Constants
+  - EQU
+  - TEXTEQU
+  - data? Directive
+  - Real-Address Mode Programming
+  - Location Counter
+  - Chapter 3
+tags:
+  - assembly-language
+  - masm
+  - ia-32
+  - symbolic-constants
+  - real-address-mode
+  - irvine32
+  - chapter-3
 status: active
 created: 2026-10-12
 ---

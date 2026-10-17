@@ -1,6 +1,17 @@
 ---
-aliases: [x86 Review Questions, IA-32 Review, Registers and Flags Q&A]
-tags: [assembly-language, ia-32, registers, eflags, review, exam-critical]
+aliases:
+  - x86 Review Questions
+  - IA-32 Review
+  - Registers and Flags Q&A
+  - Chapter 2
+tags:
+  - assembly-language
+  - ia-32
+  - registers
+  - eflags
+  - review
+  - exam-critical
+  - chapter-2
 status: active
 created: 2026-09-28
 ---

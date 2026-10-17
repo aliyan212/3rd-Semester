@@ -4,12 +4,14 @@ aliases:
   - DLD
   - Processor Architecture
   - Computer Organization
+  - Chapter 2
 tags:
   - digital-logic-design
   - computer-architecture
   - assembly-language
   - cpu
   - pipelining
+  - chapter-2
 status: active
 created: 2026-09-21
 ---

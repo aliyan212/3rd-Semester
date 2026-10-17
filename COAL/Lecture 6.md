@@ -1,6 +1,21 @@
 ---
-aliases: [Data Definition, BYTE, WORD, DWORD, DUP Operator, Little Endian, Floating Point Types, Memory Offsets]
-tags: [assembly-language, masm, ia-32, data-types, memory]
+aliases:
+  - Data Definition
+  - BYTE
+  - WORD
+  - DWORD
+  - DUP Operator
+  - Little Endian
+  - Floating Point Types
+  - Memory Offsets
+  - Chapter 3
+tags:
+  - assembly-language
+  - masm
+  - ia-32
+  - data-types
+  - memory
+  - chapter-3
 status: active
 created: 2026-09-28
 ---

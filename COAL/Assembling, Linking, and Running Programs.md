@@ -1,6 +1,18 @@
 ---
-aliases: [Assemble-Link-Execute, Build Process, make32.bat, Listing File, Map File]
-tags: [assembly-language, masm, ia-32, build-process, exam-critical]
+aliases:
+  - Assemble-Link-Execute
+  - Build Process
+  - make32.bat
+  - Listing File
+  - Map File
+  - Chapter 3
+tags:
+  - assembly-language
+  - masm
+  - ia-32
+  - build-process
+  - exam-critical
+  - chapter-3
 status: active
 created: 2026-09-28
 ---

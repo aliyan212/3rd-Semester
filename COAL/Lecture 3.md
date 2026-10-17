@@ -5,12 +5,14 @@ aliases:
   - Status Flags
   - Protected Mode
   - Binary Arithmetic
+  - Chapter 2
 tags:
   - digital-logic-design
   - computer-architecture
   - ia-32
   - registers
   - assembly-language
+  - chapter-2
 status: complete
 created: 2026-09-28
 ---
